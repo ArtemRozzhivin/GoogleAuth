@@ -8,7 +8,6 @@ import { ToastContainer } from 'react-toastify';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let cliendId = process.env.REACT_APP_GOOGLE_CLIENT_ID;
-console.log(cliendId);
 
 root.render(
   <React.StrictMode>
